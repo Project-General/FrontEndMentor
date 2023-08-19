@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <div class="page">
+    <main class="main">
+      <div class="flex_item result">
+        <!-- Heading M weight 700 -->
+        <h3 class="p_semibold result_heading font_light_blue">Your Result</h3>
+        <div class="circle item_mb">
+          <!-- Heading XL weight 800 -->
+          <h1>76</h1>
+          <!-- Body Bold weight 700 -->
+          <p class="total p_semibold font_light_blue">of 100</p>
+        </div>
+        <div class="info_wrapper">
+          <h2>Great</h2>
+          <p class="info font_light_blue">You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+      </div>
+      <div class="flex_item summary">
+        <!-- Heading M -->
+        <h3 class="item_mb p_semibold">Summary</h3>
+        <!-- p -->
+        <div class="cards_wrapper">
+          <div class="card_line card_red">
+            <div class="inner_flex">
+              <img src="./assets/images/icon-reaction.svg" alt="Reaction Icon" class="card_icon">
+              <p class="font_red">Reaction</p>
+            </div>
+            <p class="p_semibold">80 <span class="font_dark_navy p_semibold">/ 100</span></p>
+          </div>
+          <div class="card_line card_yellow">
+            <div class="inner_flex">
+              <img src="./assets/images/icon-memory.svg" alt="Memory Icon" class="card_icon">
+              <p class="font_yellow">Memory</p>
+            </div>
+            <p class="p_semibold">92 <span class="font_dark_navy p_semibold">/ 100</span></p>
+          </div>
+          <div class="card_line card_green">
+            <div class="inner_flex">
+              <img src="./assets/images/icon-verbal.svg" alt="Verbal Icon" class="card_icon">
+              <p class="font_green">Verbal</p>
+            </div>
+            <p class="p_semibold">61 <span class="font_dark_navy p_semibold">/ 100</span></p>
+          </div>
+          <div class="card_line card_blue">
+            <div class="inner_flex">
+              <img src="./assets/images/icon-visual.svg" alt="Visual Icon" class="card_icon">
+              <p class="font_blue">Visual</p>
+            </div>
+            <p class="p_semibold">73 <span class="font_dark_navy p_semibold">/ 100</span></p>
+          </div>
+          <!-- p bold -->
+        </div>
+        <button class="summary_item_mt summary_btn p_semibold">Continue</button>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
